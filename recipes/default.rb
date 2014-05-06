@@ -6,3 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+include_recipe 'redisio::isntall'
+include_recipe 'redisio::enable'
